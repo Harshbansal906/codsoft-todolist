@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox, font
 
 class ToDoApp:
-    def _init_(self, root):
+    def __init__(self, root):
         self.root = root
         self.root.title("🎉 Vibrant To-Do List 🎉")
         self.root.geometry("450x400")
