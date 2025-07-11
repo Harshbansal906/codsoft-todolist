@@ -83,7 +83,7 @@ class ToDoApp:
         for task in self.tasks:
             self.listbox.insert(tk.END, task)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     root = tk.Tk()
     app = ToDoApp(root)
     root.mainloop()
